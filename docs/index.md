@@ -82,7 +82,7 @@ toc: false
 ```js
 const aapl = FileAttachment("aapl.csv").csv({typed: true});
 const penguins = FileAttachment("penguins.csv").csv({typed: true});
-const table = FileAttachment("rPackages.json").json();
+const table = FileAttachment("data/rPackages.json").json();
 ```
 ```js
 table
